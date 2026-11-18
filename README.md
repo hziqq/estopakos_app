@@ -1,7 +1,7 @@
 # Sistem Informasi Manajemen Estopa Kos (Aplikasi Flutter)
 
 Proyek Mata Kuliah **Rekayasa Perangkat Lunak**, Program Studi **D-4 Teknologi Rekayasa Perangkat Lunak (TRPL)**, **Politeknik Negeri Medan**.
-- **Dosen Pengampu**: Cut Try Utari, S.T., M.Kom..
+- **Dosen Pengampu**: Cut Try Utari, S.T., M.Kom.
 - **Lokasi Studi Kasus**: Estopa Kos (39 Kamar, 4 Lantai, Jl. Sei Padang, Medan Baru, Kota Medan).
 
 ---
