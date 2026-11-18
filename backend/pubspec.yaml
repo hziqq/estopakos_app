@@ -1,0 +1,11 @@
+name: estopa_kos_backend
+description: Backend REST API, Webhook Payment Gateway & Cron Scheduler PostgreSQL untuk Estopa Kos.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  postgres: ^3.5.4
+  mailer: ^6.1.2

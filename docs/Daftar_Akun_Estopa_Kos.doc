@@ -1,0 +1,125 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>Daftar Akun Akses Estopa Kos</title>
+<style>
+  body { font-family: Calibri, Arial, sans-serif; font-size: 11pt; color: #1f2937; }
+  h1 { color: #0f766e; font-size: 18pt; margin-bottom: 4px; }
+  h2 { color: #0f766e; font-size: 13pt; margin-top: 18px; margin-bottom: 8px; }
+  p.subtitle { color: #4b5563; margin-top: 0; font-size: 10pt; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 14px; }
+  th { background-color: #0f766e; color: #ffffff; text-align: left; padding: 7px 8px; border: 1px solid #cbd5e1; font-size: 10pt; }
+  td { padding: 6px 8px; border: 1px solid #cbd5e1; font-size: 10pt; vertical-align: top; }
+  tr:nth-child(even) td { background-color: #f8fafc; }
+  .badge-aktif { color: #166534; font-weight: bold; }
+  .badge-nonaktif { color: #991b1b; font-weight: bold; }
+  .note { background-color: #fef3c7; border: 1px solid #f59e0b; padding: 10px; font-size: 10pt; margin-top: 14px; }
+</style>
+</head>
+<body>
+  <h1>Daftar Akun Akses Aplikasi Estopa Kos</h1>
+  <p class="subtitle">Sistem Informasi Manajemen Estopa Kos (39 Kamar, 4 Lantai, Jl. Sei Padang, Medan Baru) &bull; D-4 TRPL Politeknik Negeri Medan</p>
+
+  <h2>1. Akun Admin (Pemilik / Pengelola)</h2>
+  <table>
+    <tr>
+      <th>Peran</th>
+      <th>Nama</th>
+      <th>Email</th>
+      <th>Nomor HP</th>
+      <th>Kata Sandi</th>
+      <th>Hak Akses</th>
+    </tr>
+    <tr>
+      <td><b>Admin</b></td>
+      <td>Pemilik / Pengelola Estopa Kos</td>
+      <td>admin@estopakos.id</td>
+      <td>08116001234</td>
+      <td><b>admin123</b></td>
+      <td>Kelola 39 kamar, data penghuni &amp; KTP, reset password, tagihan &amp; keuangan, keluhan, pengumuman.</td>
+    </tr>
+  </table>
+
+  <h2>2. Akun Penghuni Utama (Skenario Uji PRD)</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Nama Lengkap</th>
+      <th>Kamar</th>
+      <th>Email</th>
+      <th>Nomor HP</th>
+      <th>Kata Sandi</th>
+      <th>Status</th>
+      <th>Keterangan Skenario</th>
+    </tr>
+    <tr>
+      <td>TNT-001</td>
+      <td>Nadia Salsabila Siregar</td>
+      <td>101 (Putri)</td>
+      <td>nadia@mahasiswa.polmed.ac.id</td>
+      <td>081260001111</td>
+      <td>password123</td>
+      <td class="badge-aktif">Aktif</td>
+      <td>Tagihan Belum Bayar (Jatuh tempo H-2)</td>
+    </tr>
+    <tr>
+      <td>TNT-002</td>
+      <td>Rizky Pratama Ginting</td>
+      <td>301 (Putra)</td>
+      <td>rizky@mahasiswa.polmed.ac.id</td>
+      <td>081260002222</td>
+      <td>password123</td>
+      <td class="badge-aktif">Aktif</td>
+      <td>Tagihan Terlambat 3 hari (Denda Rp150.000)</td>
+    </tr>
+    <tr>
+      <td>TNT-003</td>
+      <td>Kevin Immanuel Simanjuntak</td>
+      <td>305 (Putra)</td>
+      <td>kevin@mahasiswa.polmed.ac.id</td>
+      <td>081260003333</td>
+      <td>password123</td>
+      <td class="badge-aktif">Aktif</td>
+      <td>Tagihan Lunas (Sewa 3 Bulan)</td>
+    </tr>
+    <tr>
+      <td>TNT-004</td>
+      <td>Dinda Maharani Nasution (Alumni)</td>
+      <td>202 (Sudah Keluar)</td>
+      <td>dinda@alumni.polmed.ac.id</td>
+      <td>081260004444</td>
+      <td>password123</td>
+      <td class="badge-nonaktif">Nonaktif</td>
+      <td>Uji blokir login akun nonaktif (FR-21)</td>
+    </tr>
+  </table>
+
+  <h2>3. Akun Penghuni Kamar Lainnya (Kamar Terisi)</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Nama</th>
+      <th>Kamar</th>
+      <th>Email</th>
+      <th>Nomor HP</th>
+      <th>Kata Sandi</th>
+      <th>Status</th>
+    </tr>
+    <tr><td>TNT-100</td><td>Penghuni Kamar 102</td><td>102 (Putri)</td><td>kamar102@estopakos.id</td><td>081269990000</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-101</td><td>Penghuni Kamar 104</td><td>104 (Putri)</td><td>kamar104@estopakos.id</td><td>081269990001</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-102</td><td>Penghuni Kamar 201</td><td>201 (Putri)</td><td>kamar201@estopakos.id</td><td>081269990002</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-103</td><td>Penghuni Kamar 203</td><td>203 (Putri)</td><td>kamar203@estopakos.id</td><td>081269990003</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-104</td><td>Penghuni Kamar 205</td><td>205 (Putri)</td><td>kamar205@estopakos.id</td><td>081269990004</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-105</td><td>Penghuni Kamar 302</td><td>302 (Putra)</td><td>kamar302@estopakos.id</td><td>081269990005</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-106</td><td>Penghuni Kamar 304</td><td>304 (Putra)</td><td>kamar304@estopakos.id</td><td>081269990006</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-107</td><td>Penghuni Kamar 401</td><td>401 (Putra)</td><td>kamar401@estopakos.id</td><td>081269990007</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+    <tr><td>TNT-108</td><td>Penghuni Kamar 402</td><td>402 (Putra)</td><td>kamar402@estopakos.id</td><td>081269990008</td><td>password123</td><td class="badge-aktif">Aktif</td></tr>
+  </table>
+
+  <div class="note">
+    <b>Status Koneksi Database:</b> Saat ini aplikasi Flutter dan server prototipe masih menggunakan penyimpanan sementara di memori (<i>in-memory</i>) dan belum terkoneksi ke database permanen (PostgreSQL maupun SQLite). Untuk pemakaian produksi multi-perangkat (Admin &amp; Penghuni), disarankan menghubungkan <code>backend/server.dart</code> ke PostgreSQL.
+  </div>
+</body>
+</html>
